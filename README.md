@@ -3,3 +3,11 @@
 ### I am at:
 
 Introduction to Java
+
+To compile:
+
+=> javac YourName.java
+
+To run:
+
+=> java YourName
