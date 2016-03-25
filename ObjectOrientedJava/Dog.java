@@ -3,6 +3,9 @@ class Dog {
     public Dog(int dogsAge) {
         age = dogsAge;
     }
+    public void bark() {
+        System.out.println("Woof!");
+    }
     public static void main(String[] args) {
         Dog spike = new Dog(7);
     }
