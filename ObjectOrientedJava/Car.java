@@ -1,4 +1,4 @@
-class Car {
+class Car extends Vehicle {
     int modelYear;
     public Car(int year) {
         modelYear = year;
@@ -14,6 +14,7 @@ class Car {
     }
     public static void main(String[] args) {
         Car myFastCar = new Car(2007);
+        myFastCar.checkBatteryStatus();
         myFastCar.startEngine();
         myFastCar.drive(1628);
 
