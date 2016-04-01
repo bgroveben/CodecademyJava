@@ -1,13 +1,9 @@
 ## Learn Java with Codecademy, Yay!
 
-### I am at:
-
-Data Structures
-
 To compile:
 
-=> javac YourName.java
+=> javac filename.java
 
 To run:
 
-=> java YourName
+=> java filename
